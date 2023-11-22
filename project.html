@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+    <style>
+        .box{
+            background-color:#219ebc;
+            padding-top: 10px;
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            margin-left: 475px;
+        }
+        h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .sub{
+            background-color: #a7c957;
+            border-style: none;
+            height: 30px;
+            width: 70px;
+            border-radius: 3px;
+        }
+        .clear{
+            background-color: #d00000;
+            border-style: none;
+            height: 30px;
+            width: 70px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Project Managemant</h2>
+    <div class="box">
+        <strong>Project Name : </strong><input type="text" value="project name" ><br><br><br>
+        <strong>Assigned To : </strong><select name="name">
+            <option value="Er Merry Petision">Er Merry Petision</option>
+            <option value="Er Deepak Bhusan">Er Deepak Bhusan</option>
+            <option value="Er Robert Watson">Er Robert Watson</option>
+        </select>
+        <br><br><br>
+        <strong>Start Date : </strong><input type="date"><br><br><br>
+        <strong>End Date : </strong><input type="date"><br><br><br>
+        <strong>Priority : </strong>
+        <input type="radio" name="option" value="High"><strong>High</strong>
+        <input type="radio" name="option" value="High"><strong>Average</strong>
+        <input type="radio" name="option" value="High"><strong>Low</strong> <br><br><br>
+        <strong>Description : </strong><textarea name=""cols="30" rows="2"></textarea><br><br><br>
+        <button class="sub">Submit</button>
+        <button class="clear">Clear</button>
+    </div>
+</body>
+</html>
